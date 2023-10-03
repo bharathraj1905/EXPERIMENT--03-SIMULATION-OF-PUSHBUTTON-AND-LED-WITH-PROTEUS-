@@ -1,6 +1,6 @@
 ```
-Name:Sanjay Ragavendar M K
-Register Number: 2122221000045
+Name:B.Barathraj
+Register Number: 212222230019
 ```
 # EXPERIMENT  03 SIMULATION OF PUSHBUTTON AND LED INTERFACE WITH ARM CONTROLLER AND PROTEUS 
 ## Aim: To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM development board , and simulate it in Proteus 
