@@ -18,8 +18,6 @@ interfaces Datasheet - production data Features
 1), and DSP instructions
 • Memories – Up to 256 Kbytes of Flash memory – Up to 64 Kbytes of SRAM
  
- 
-
 ## Procedure:
 
 1.  Creating Proteus project and running the simulation
@@ -28,13 +26,14 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 2. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 3. After creation of the circuit as per requirement as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+<img src="https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png" width=450 height=450>
 
 4. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
-![image](https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png)
+<img src="https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png" width=450 height=450>
+
 5. click on debug and simulate using simulation as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
+<img src="https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png" width=450 height=450>
 
 
 ## STM 32 CUBE PROGRAM :
@@ -142,16 +141,15 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 
 ```
-
-
-
 ## Output screen shots of proteus  :
 ### BUTTON OFF
-<img src="https://github.com/Sanjay-2610/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/91368803/c5959f45-6412-4df7-a21c-649ade8087cb" height="475" width="475">
+<img src="https://github.com/Sanjay-2610/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/91368803/c5959f45-6412-4df7-a21c-649ade8087cb" height="450" width="450">
 
 ### BUTTON ON
-<img src="https://github.com/Sanjay-2610/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/91368803/f96870c8-6261-4476-9e68-b6df1c4ee8bc" height="475" width="475">
+<img src="https://github.com/Sanjay-2610/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/91368803/f96870c8-6261-4476-9e68-b6df1c4ee8bc" height="450" width="450">
 
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
+
+
 
